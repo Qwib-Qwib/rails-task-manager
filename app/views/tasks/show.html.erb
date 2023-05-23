@@ -1,0 +1,4 @@
+<h1><%= @task.title %></h1>
+<p><%= @task.details %></p>
+<p>This task is <%= @completion_message %>.</p>
+<%= link_to 'Edit this task', edit_path(@task.id) %>
